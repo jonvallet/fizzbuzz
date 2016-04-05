@@ -7,8 +7,10 @@ public class FizzBuzzStreams {
 
     public static String fizzbuzz(Integer e) {
         if (e % 15 == 0) {
-            return "FIZZ";
+            return "FIZZBUZZ";
         } else if ( e % 3 == 0) {
+            return "FIZZ";
+        } else if ( e % 5 == 0) {
             return "BUZZ";
         } else {
             return e.toString();
