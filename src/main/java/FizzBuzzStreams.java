@@ -18,7 +18,7 @@ public class FizzBuzzStreams {
     }
 
     public static void main (String [] args) {
-        IntStream.range(1, 101).mapToObj(p -> fizzbuzz(p)).forEach( s -> System.out.print(s+" "));
+        IntStream.rangeClosed(1, 100).mapToObj(p -> fizzbuzz(p)).forEach( s -> System.out.print(s+" "));
     }
 
 }
