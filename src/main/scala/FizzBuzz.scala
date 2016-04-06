@@ -6,6 +6,7 @@ object FizzBuzz {
     else s"$e"
 
   def main(args: Array[String]) = {
-   println((1 to 100).map(fizzbuzz).mkString(" "))
+    (1 to 100).map(e => s"$e ").foreach(print)
+    println
   }
 }
