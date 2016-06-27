@@ -6,7 +6,7 @@ object FizzBuzz {
     else s"$e"
 
   def main(args: Array[String]) = {
-    (1 to 100).map(e => s"$e ").foreach(print)
+    1 to 100 map(fizzbuzz) foreach(e => print(s"$e ")) 
     println
   }
 }
