@@ -11,5 +11,6 @@ fun fizzbuzz(i: Int):String {
 
 fun main (args: Array<String>) {
         (1..100).map {fizzbuzz(it)}.forEach {print("$it ")}
+	println()
 }
 

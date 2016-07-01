@@ -10,4 +10,5 @@ fn main() {
             print!("{} ", i);
         }
     }
+    println!("");
 }
